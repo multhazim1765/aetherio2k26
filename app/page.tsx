@@ -7,7 +7,6 @@ import EventExplorer from '@/components/event-explorer';
 import ScheduleSection from '@/components/schedule-section';
 
 import RulesSection from '@/components/rules-section';
-import SponsorsSection from "@/components/sponsors-section";
 import CertificateEligibilityNote from "@/components/certificate-eligibility-note";
 import FemaleOfferBanner from "@/components/female-offer-banner";
 import FAQSection from '@/components/faq-section';
@@ -186,11 +185,6 @@ export default function HomePage() {
       {/* 6. RULES & REGULATIONS */}
       {/* ========================================================================= */}
       <RulesSection />
-
-      {/* ========================================================================= */}
-      {/* 7. SPONSORS & PARTNERS */}
-      {/* ========================================================================= */}
-      <SponsorsSection />
 
       {/* ========================================================================= */}
       {/* 8. FAQ SECTION */}
