@@ -78,7 +78,7 @@ export default function HomePage() {
         <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-6 text-xs sm:text-sm text-slate-200 font-mono mb-6 py-3 px-6 rounded-2xl bg-black/60 border border-red-500/30 backdrop-blur-md shadow-[0_0_25px_rgba(0,0,0,0.8)]">
           <div className="flex items-center gap-2">
             <Calendar className="w-4 h-4 text-red-400" />
-            <span>{SYMPOSIUM_METADATA.date} (1-DAY INTENSIVE)</span>
+            <span>{SYMPOSIUM_METADATA.date}</span>
           </div>
           <span className="hidden sm:inline text-red-900">•</span>
           <a
