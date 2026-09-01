@@ -114,7 +114,7 @@ export default function HomePage() {
             className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-black/60 hover:bg-white/[0.08] border border-red-500/30 text-white font-semibold text-sm backdrop-blur-md transition-all active:scale-95"
           >
             <Compass className="w-4 h-4 text-red-400" />
-            <span>EXPLORE ALL 9 EVENTS</span>
+            <span>EXPLORE ALL 10 EVENTS</span>
           </a>
         </div>
       </section>

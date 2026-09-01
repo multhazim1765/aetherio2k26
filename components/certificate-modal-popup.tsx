@@ -88,14 +88,14 @@ export default function CertificateModalPopup() {
           </div>
 
           {/* Both Tech + Non-Tech */}
-          <div className="p-3.5 rounded-xl bg-gradient-to-r from-red-950/40 to-orange-950/40 border border-red-500/40 flex items-start gap-3">
-            <div className="p-1.5 rounded-lg bg-red-500/20 text-red-400 flex-shrink-0 mt-0.5">
-              <Award className="w-4 h-4" />
+          <div className="p-3.5 rounded-xl bg-emerald-950/20 border border-emerald-500/30 flex items-start gap-3">
+            <div className="p-1.5 rounded-lg bg-emerald-500/10 text-emerald-400 flex-shrink-0 mt-0.5">
+              <CheckCircle2 className="w-4 h-4" />
             </div>
             <div>
               <div className="flex items-center gap-2">
                 <span className="text-xs font-bold text-white">🏆 Both Technical + Non-Technical Events</span>
-                <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-red-500/30 text-red-300 font-bold">
+                <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 font-semibold">
                   Provided
                 </span>
               </div>

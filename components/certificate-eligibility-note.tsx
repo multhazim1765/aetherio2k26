@@ -43,12 +43,12 @@ export default function CertificateEligibilityNote({ className = '' }: { classNa
         </div>
 
         {/* Both Tech + Non Tech */}
-        <div className="p-3 rounded-xl bg-red-950/30 border border-red-500/40 flex flex-col justify-between space-y-2">
+        <div className="p-3 rounded-xl bg-emerald-950/20 border border-emerald-500/30 flex flex-col justify-between space-y-2">
           <div className="flex items-center justify-between">
             <span className="font-bold text-white">🏆 Technical + Non-Tech</span>
-            <Award className="w-4 h-4 text-red-400" />
+            <CheckCircle2 className="w-4 h-4 text-emerald-400" />
           </div>
-          <span className="inline-block text-[10px] font-mono px-2 py-0.5 rounded-full bg-red-500/30 text-red-300 font-bold w-fit">
+          <span className="inline-block text-[10px] font-mono px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 font-semibold w-fit">
             Certificate Provided
           </span>
         </div>
