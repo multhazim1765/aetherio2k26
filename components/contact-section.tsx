@@ -38,7 +38,14 @@ export default function ContactSection() {
               <div>
                 <h4 className="text-xs uppercase font-mono text-slate-400 font-bold">Presenter & Institution</h4>
                 <p className="text-sm font-semibold text-white mt-0.5">AMSphere</p>
-                <p className="text-xs text-slate-400 mt-0.5">{SYMPOSIUM_METADATA.venue}</p>
+                <a
+                  href={SYMPOSIUM_METADATA.venueMapUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-red-400 hover:underline mt-0.5 inline-block font-mono font-medium"
+                >
+                  📍 {SYMPOSIUM_METADATA.venue} (Google Maps)
+                </a>
               </div>
             </div>
 

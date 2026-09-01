@@ -81,10 +81,16 @@ export default function HomePage() {
             <span>{SYMPOSIUM_METADATA.date} (1-DAY INTENSIVE)</span>
           </div>
           <span className="hidden sm:inline text-red-900">•</span>
-          <div className="flex items-center gap-2">
+          <a
+            href={SYMPOSIUM_METADATA.venueMapUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 hover:text-red-400 transition-colors underline decoration-red-500/50 underline-offset-4"
+            title="Open AMS College of Engineering on Google Maps"
+          >
             <MapPin className="w-4 h-4 text-orange-400" />
             <span>{SYMPOSIUM_METADATA.venue}</span>
-          </div>
+          </a>
           <span className="hidden sm:inline text-red-900">•</span>
           <div className="flex items-center gap-2 text-white font-bold">
             <Globe className="w-4 h-4 text-red-500" />

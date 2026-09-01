@@ -1,7 +1,5 @@
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function sendRegistrationEmail(
   to: string,
   name: string,
@@ -12,6 +10,8 @@ export async function sendRegistrationEmail(
     console.warn('RESEND_API_KEY not set - email not sent');
     return;
   }
+
+  const resend = new Resend(process.env.RESEND_API_KEY);
 
   await resend.emails.send({
     from: 'Symposium 2026 <noreply@yourdomain.com>',
